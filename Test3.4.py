@@ -22,7 +22,9 @@ else:
 
 # Третий способ
 year = int(input("Введите год: "))
-result = "да" if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0) else "нет"
+result = "да" if (year % 400 == 0) or \
+         (year % 4 == 0 and year % 100 != 0) else "нет"
 print(result)
+
 
 
